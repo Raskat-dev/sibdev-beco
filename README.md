@@ -7,7 +7,7 @@
 * HTML+CSS,
 * flexbox
 * grid
-* невероятная одна строчка JavaScript
+* невероятные пара строчек JavaScript
 
 ### Алгоритм развертки проекта:
 1. Выполнить команду git clone https://github.com/Raskat-dev/sibdev-beco.git или скачать репозиторий архивом;
