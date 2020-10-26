@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="./index.css">
+	<script src="./index.js" defer></script>
+	<title>Beco</title>
+</head>
+
+<body>
+	<div class="page">
+		<menu class="slidebar">
+			<div class="slidebar__header">
+				<img class="slidebar__logo" src="images/icons/coupon 1.svg" alt="логопит Beco">
+				<h5 class="slidebar__name">BECO</h5>
+				<button class="slidebar__button">
+					<span></span>
+				</button>
+			</div>
+			<ul class="slidebar__list">
+				<li class="slidebar__list-item"><svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M10 3H3v7h7V3zM21 3h-7v7h7V3zM21 14h-7v7h7v-7zM10 14H3v7h7v-7z" stroke="#333"
+							stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg>
+					<a href="#">Каталог</a>
+				</li>
+				<li class="slidebar__list-item slidebar__list-item_active"><svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M22 12h-4l-3 9L9 3l-3 9H2" stroke="#000" stroke-width="2" stroke-linecap="round"
+							stroke-linejoin="round" /></svg>
+					<a href="#">Здоровье</a>
+				</li>
+				<li class="slidebar__list-item"><svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.501 5.501 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78v0z"
+							stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg>
+					<a href="#">Красота</a>
+				</li>
+				<li class="slidebar__list-item"><svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<g clip-path="url(#clip0)">
+							<path
+								d="M16 22v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22m0-3c-5 1.5-5-2.5-7-3l7 3z"
+								stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+						</g>
+						<defs>
+							<clipPath id="clip0">
+								<path fill="#fff" d="M0 0h24v24H0z" />
+							</clipPath>
+						</defs>
+					</svg>
+					<a href="#">Развлечения</a>
+				</li>
+				<li class="slidebar__list-item"><svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M16 3H1v13h15V3zM16 8h4l3 3v5h-7V8zM5.5 21a2.5 2.5 0 100-5 2.5 2.5 0 000 5zM18.5 21a2.5 2.5 0 100-5 2.5 2.5 0 000 5z"
+							stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg>
+					<a href="#">Авто</a>
+				</li>
+			</ul>
+		</menu>
+		<!-- Содержание страницы -->
+		<main class="content">
+			<div class="search">
+				<!-- <button class="slidebar__button">
+					<span></span>
+				</button> -->
+				<h2 class="search__header">Здоровье</h2>
+				<form class="search__form">
+					<i></i>
+					<input type="text" placeholder="Какой магазин вам нужен?" class="search__input">
+				</form>
+			</div>
+			<ul class="coupons__list">
+				<li class="coupon coupon_active">
+					<div class="coupon__text">
+						<h4 class="coupon__place">Пробка на мира</h3>
+							<p class="coupon__about">Вечер для двоих</p>
+							<h3 class="coupon__promo">-50%</h3>
+							<p class="coupon__description">Скидка</p>
+					</div>
+					<img src="./images/image1.jpg" alt="изображение на купоне" class="coupon__image">
+				</li>
+				<li class="coupon">
+					<div class="coupon__text">
+						<h4 class="coupon__place">Кино и немцы</h3>
+							<p class="coupon__about">Бесплатный бокал пива</p>
+							<h3 class="coupon__promo">ВАРВАР</h3>
+							<p class="coupon__description">Промокод</p>
+					</div>
+					<img src="./images/image2.jpg" alt="изображение на купоне" class="coupon__image">
+				</li>
+				<li class="coupon">
+					<div class="coupon__text">
+						<h4 class="coupon__place">VALERY CAKES</h3>
+							<p class="coupon__about">Торт</p>
+							<h3 class="coupon__promo">30%</h3>
+							<p class="coupon__description">Скидка</p>
+					</div>
+					<img src="./images/image3.jpg" alt="изображение на купоне" class="coupon__image">
+				</li>
+				<li class="coupon">
+					<div class="coupon__text">
+						<h4 class="coupon__place">Пробка на мира</h3>
+							<p class="coupon__about">Вечер для двоих</p>
+							<h3 class="coupon__promo">-50%</h3>
+							<p class="coupon__description">Скидка</p>
+					</div>
+					<img src="./images/image1.jpg" alt="изображение на купоне" class="coupon__image">
+				</li>
+				<li class="coupon">
+					<div class="coupon__text">
+						<h4 class="coupon__place">Кино и немцы</h3>
+							<p class="coupon__about">Бесплатный бокал пива</p>
+							<h3 class="coupon__promo">ВАРВАР</h3>
+							<p class="coupon__description">Промокод</p>
+					</div>
+					<img src="./images/image2.jpg" alt="изображение на купоне" class="coupon__image">
+				</li>
+				<li class="coupon">
+					<div class="coupon__text">
+						<h4 class="coupon__place">VALERY CAKES</h3>
+							<p class="coupon__about">Торт</p>
+							<h3 class="coupon__promo">30%</h3>
+							<p class="coupon__description">Скидка</p>
+					</div>
+					<img src="./images/image3.jpg" alt="изображение на купоне" class="coupon__image">
+				</li>
+				<li class="coupon">
+					<div class="coupon__text">
+						<h4 class="coupon__place">Пробка на мира</h3>
+							<p class="coupon__about">Вечер для двоих</p>
+							<h3 class="coupon__promo">-50%</h3>
+							<p class="coupon__description">Скидка</p>
+					</div>
+					<img src="./images/image1.jpg" alt="изображение на купоне" class="coupon__image">
+				</li>
+				<li class="coupon">
+					<div class="coupon__text">
+						<h4 class="coupon__place">Кино и немцы</h3>
+							<p class="coupon__about">Бесплатный бокал пива</p>
+							<h3 class="coupon__promo">ВАРВАР</h3>
+							<p class="coupon__description">Промокод</p>
+					</div>
+					<img src="./images/image2.jpg" alt="изображение на купоне" class="coupon__image">
+				</li>
+				<li class="coupon">
+					<div class="coupon__text">
+						<h4 class="coupon__place">VALERY CAKES</h3>
+							<p class="coupon__about">Торт</p>
+							<h3 class="coupon__promo">30%</h3>
+							<p class="coupon__description">Скидка</p>
+					</div>
+					<img src="./images/image3.jpg" alt="изображение на купоне" class="coupon__image">
+				</li>
+				<li class="coupon">
+					<div class="coupon__text">
+						<h4 class="coupon__place">Пробка на мира</h3>
+							<p class="coupon__about">Вечер для двоих</p>
+							<h3 class="coupon__promo">-50%</h3>
+							<p class="coupon__description">Скидка</p>
+					</div>
+					<img src="./images/image1.jpg" alt="изображение на купоне" class="coupon__image">
+				</li>
+				<li class="coupon">
+					<div class="coupon__text">
+						<h4 class="coupon__place">Кино и немцы</h3>
+							<p class="coupon__about">Бесплатный бокал пива</p>
+							<h3 class="coupon__promo">ВАРВАР</h3>
+							<p class="coupon__description">Промокод</p>
+					</div>
+					<img src="./images/image2.jpg" alt="изображение на купоне" class="coupon__image">
+				</li>
+				<li class="coupon">
+					<div class="coupon__text">
+						<h4 class="coupon__place">VALERY CAKES</h3>
+							<p class="coupon__about">Торт</p>
+							<h3 class="coupon__promo">30%</h3>
+							<p class="coupon__description">Скидка</p>
+					</div>
+					<img src="./images/image3.jpg" alt="изображение на купоне" class="coupon__image">
+				</li>
+			</ul>
+		</main>
+	</div>
+</body>
+
+</html>
